@@ -18,7 +18,7 @@ def load_objects():
     # importer les valeurs uniques
     uniques = joblib.load('uniques.joblib')
    #normalisateur 
-     scaler = joblib.load('scaler.joblib')  
+    scaler = joblib.load('scaler.joblib')  
     return encoders, xgb_model, uniques,scaler
 
 
