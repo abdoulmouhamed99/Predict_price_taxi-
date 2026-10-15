@@ -22,7 +22,7 @@ def load_objects():
     return encoders, xgb_model, uniques,scaler
 
 
-encoders, xgb_model, uniques = load_objects()
+encoders, xgb_model, uniques, scaler = load_objects()
 
  
 # Fonction de prédiction
